@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<meta charset="UTF-8">
+
+<!--Resto 9: Crie uma função que recebe como parâmetro um número. Essa função deve retornar o
+texto "O resto de {numero} divididos por 9 é: {resto da divisão}". Utilize document.write para
+escrever na tela o resultado desta função com os parâmetros a sua escolha."-->
+<script>
+    // Declarando a variavel.
+    var num = 7498;
+    // Declarando uma função com parâmetro.
+    function restoPorNove (numero){
+    // Declarando variavel e coloquei valor.
+    var resto = numero % 9;
+    // Retonarndo a variavel da função.
+    return resto;
+    }
+    //Texto +  chamando a função + chamando var.
+   document.write ("O resto de "+ num + " divididos por 9 é:" + restoPorNove(num) );
+  
+</script>
